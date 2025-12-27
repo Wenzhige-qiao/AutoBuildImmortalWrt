@@ -8,6 +8,10 @@
 # 考虑到istore商店的集成与否 属于高频操作 故 目前已将集成store的操作放置在 工作流的UI 选项 用户自行勾选 则集成  不勾选则不集成 以减少修改此文件的次数
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-store"
 -luci-app-store
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-argon-config"
+-luci-app-argon-config
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-i18n-argon-config-zh-cn"
+-luci-i18n-argon-config-zh-cn
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -dufs"
 -dufs
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-dufs"
